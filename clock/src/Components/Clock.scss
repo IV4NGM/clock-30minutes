@@ -1,0 +1,25 @@
+$border-color: #070795;
+
+.clock{
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid $border-color;
+  padding: 0px;
+  border-radius: 15px;
+  max-width: 500px;
+  min-width: 300px;
+  box-shadow: inset 0px 0px 3px 0px #1857d4;
+  // background-color: aliceblue;
+  .number-container {
+    font-size: 30px;
+    width: 100%;
+    height: inherit;
+    border-right: 2px solid $border-color;
+    &-right {
+      border-right: 0;
+    }
+    p {
+      margin: 20px 0px;
+    }
+  }
+}
